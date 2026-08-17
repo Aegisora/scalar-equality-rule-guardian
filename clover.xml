@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1786950240">
-  <project timestamp="1786950240">
+<coverage generated="1786951768">
+  <project timestamp="1786951768">
     <file name="/home/runner/work/scalar-equality-rule-guardian/scalar-equality-rule-guardian/src/ScalarEqualityRuleGuardian.php">
       <class name="Aegisora\RuleGuardians\ScalarEqualityRule\ScalarEqualityRuleGuardian" namespace="global">
-        <metrics complexity="3" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="6" coveredelements="0"/>
+        <metrics complexity="3" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="6" coveredelements="6"/>
       </class>
-      <line num="15" type="method" name="__construct" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="18" type="stmt" count="0"/>
-      <line num="28" type="method" name="checkEqual" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="33" type="stmt" count="0"/>
-      <line num="43" type="method" name="checkNotEqual" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="48" type="stmt" count="0"/>
-      <metrics loc="51" ncloc="37" classes="1" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="6" coveredelements="0"/>
+      <line num="15" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="120"/>
+      <line num="18" type="stmt" count="120"/>
+      <line num="28" type="method" name="checkEqual" visibility="public" complexity="1" crap="1" count="65"/>
+      <line num="33" type="stmt" count="65"/>
+      <line num="43" type="method" name="checkNotEqual" visibility="public" complexity="1" crap="1" count="55"/>
+      <line num="48" type="stmt" count="55"/>
+      <metrics loc="51" ncloc="37" classes="1" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="6" coveredelements="6"/>
     </file>
-    <metrics files="1" loc="51" ncloc="37" classes="1" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="6" coveredelements="0"/>
+    <metrics files="1" loc="51" ncloc="37" classes="1" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="6" coveredelements="6"/>
   </project>
 </coverage>
