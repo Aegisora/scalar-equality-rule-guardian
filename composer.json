@@ -1,12 +1,23 @@
 {
-    "name": "aegisora/<REPOSITORY_NAME>",
-    "description": "<REPOSITORY_DESCRIPTION>",
+    "name": "aegisora/scalar-equality-rule-guardian",
+    "description": "Scalar Equality Rule Guardian provides a simple shortcut for scalar equality validation using aegisora/guardian and aegisora/scalar-equality-rule",
     "type": "library",
-    "keywords": ["php", "aegisora", "aegisora-ecosystem"],
-    "homepage": "https://github.com/Aegisora/<REPOSITORY_NAME>",
+    "keywords": [
+        "php",
+        "aegisora",
+        "aegisora-ecosystem",
+        "validation",
+        "guardian",
+        "scalar-equality",
+        "scalar-equality-check",
+        "scalar-equality-rule",
+        "rule",
+        "rule-guardian"
+    ],
+    "homepage": "https://github.com/Aegisora/scalar-equality-rule-guardian",
     "support": {
-        "issues": "https://github.com/Aegisora/<REPOSITORY_NAME>/issues",
-        "source": "https://github.com/Aegisora/<REPOSITORY_NAME>"
+        "issues": "https://github.com/Aegisora/scalar-equality-rule-guardian/issues",
+        "source": "https://github.com/Aegisora/scalar-equality-rule-guardian"
     },
     "authors": [
         {
@@ -17,7 +28,9 @@
     ],
     "license": "MIT",
     "require": {
-        "php": ">=7.4"
+        "php": ">=7.4",
+        "aegisora/guardian": "^1.0",
+        "aegisora/scalar-equality-rule": "^1.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.6",
@@ -26,12 +39,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Aegisora\\<PACKAGE>\\": "src/"
+            "Aegisora\\RuleGuardians\\ScalarEqualityRule\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Aegisora\\<PACKAGE>\\Tests\\": "tests/"
+            "Aegisora\\RuleGuardians\\ScalarEqualityRule\\Tests\\": "tests/"
         }
     },
     "config": {
