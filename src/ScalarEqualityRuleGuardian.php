@@ -31,4 +31,18 @@ class ScalarEqualityRuleGuardian
     ): void {
         $this->guardian->check($value, ScalarEqualityRule::createEqual($expectedValue), $exception);
     }
+
+    /**
+     * @param mixed $value
+     * @throws GuardianExecutingRuleException
+     * @throws GuardianValidationException
+     * @throws Throwable
+     */
+    public function checkNotEqual(
+        $value,
+        $expectedValue,
+        ?Throwable $exception = null
+    ): void {
+        $this->guardian->check($value, ScalarEqualityRule::createNotEqual($expectedValue), $exception);
+    }
 }
