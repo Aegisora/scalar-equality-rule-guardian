@@ -1,8 +1,19 @@
 {
     "name": "aegisora/scalar-equality-rule-guardian",
-    "description": "<REPOSITORY_DESCRIPTION>",
+    "description": "Scalar Equality Rule Guardian provides a simple shortcut for scalar equality validation using aegisora/guardian and aegisora/scalar-equality-rule",
     "type": "library",
-    "keywords": ["php", "aegisora", "aegisora-ecosystem"],
+    "keywords": [
+        "php",
+        "aegisora",
+        "aegisora-ecosystem",
+        "validation",
+        "guardian",
+        "scalar-equality",
+        "scalar-equality-check",
+        "scalar-equality-rule",
+        "rule",
+        "rule-guardian"
+    ],
     "homepage": "https://github.com/Aegisora/scalar-equality-rule-guardian",
     "support": {
         "issues": "https://github.com/Aegisora/scalar-equality-rule-guardian/issues",
