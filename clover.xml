@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1786951768">
-  <project timestamp="1786951768">
+<coverage generated="1786954488">
+  <project timestamp="1786954488">
     <file name="/home/runner/work/scalar-equality-rule-guardian/scalar-equality-rule-guardian/src/ScalarEqualityRuleGuardian.php">
       <class name="Aegisora\RuleGuardians\ScalarEqualityRule\ScalarEqualityRuleGuardian" namespace="global">
         <metrics complexity="3" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="6" coveredelements="6"/>
