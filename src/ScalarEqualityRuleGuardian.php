@@ -20,6 +20,7 @@ class ScalarEqualityRuleGuardian
 
     /**
      * @param mixed $value
+     * @param mixed $expectedValue
      * @throws GuardianExecutingRuleException
      * @throws GuardianValidationException
      * @throws Throwable
@@ -34,6 +35,7 @@ class ScalarEqualityRuleGuardian
 
     /**
      * @param mixed $value
+     * @param mixed $expectedValue
      * @throws GuardianExecutingRuleException
      * @throws GuardianValidationException
      * @throws Throwable
